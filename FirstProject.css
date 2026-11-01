@@ -1,3 +1,6 @@
+html{
+    cursor:url('cursor.png'),auto;
+}
 body{
     margin:0px;
     background-color: #222222;
@@ -25,6 +28,7 @@ body{
 #name:hover{
     color:#222222;
     transition:color 0.5s;
+    cursor:url('pointer.png'),pointer;
 }
 #about-me{
     color: bisque;
@@ -105,6 +109,7 @@ body{
 }
 .contact-container img:hover{
     transform:scale(1.1);
+    cursor:url('pointer.png'),pointer;
 }
 #projects{
     color: bisque;
@@ -123,6 +128,7 @@ body{
 .sections:hover{
     color:#222222;
     transition:color 0.45s;
+    cursor:url('pointer.png'),pointer;
 }
 #about-me-link{
     right:40%;
@@ -176,6 +182,7 @@ h3{
 .card a:hover{
     color:#222222;
     transition: color 0.5s;
+    cursor: url('pointer.png'),pointer;
 }
 .card img{
     height:200px;
